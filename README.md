@@ -11,5 +11,5 @@
  - You can have this as a cronjob that runs once a day:
    edit the crontab entry: `sudo crontab -e`
    add the following entry : `0 6 * * * cd <project_directory> && .venv/bin/python3 monitor.py`
-   
+
    The disk usage monitor will run everyday at 6:00 AM
