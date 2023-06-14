@@ -6,7 +6,7 @@
  - create a .env file: `cp .env.sample .env`
    NB: Modify the .env values approriately with your own vonage credentials.
  - create a python virtual environment: `python3 -m venv .venv`
- - install dependecies: `pip3 install -r requirements.txt`
+ - install dependecies: `source .venv/bin/activate && pip3 install -r requirements.txt`
  - run the script: `python3 monitor.py`
  - You can have this as a cronjob that runs once a day:
    edit the crontab entry: `sudo crontab -e`
